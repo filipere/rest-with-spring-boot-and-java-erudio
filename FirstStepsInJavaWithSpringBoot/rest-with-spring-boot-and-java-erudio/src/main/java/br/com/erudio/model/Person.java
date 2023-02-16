@@ -13,7 +13,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "person")
+@Table(name = "Person")
 public class Person implements Serializable {
 
     private static final long serialVersionUID = 1L;
