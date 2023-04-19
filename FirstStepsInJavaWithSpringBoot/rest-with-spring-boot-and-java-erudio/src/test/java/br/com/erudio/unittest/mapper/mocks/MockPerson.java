@@ -12,11 +12,11 @@ public class MockPerson {
     public Person mockEntity() {
         return mockEntity(0);
     }
-    
+
     public PersonVO mockVO() {
         return mockVO(0);
     }
-    
+
     public List<Person> mockEntityList() {
         List<Person> persons = new ArrayList<Person>();
         for (int i = 0; i < 14; i++) {
@@ -32,7 +32,7 @@ public class MockPerson {
         }
         return persons;
     }
-    
+
     public Person mockEntity(Integer number) {
         Person person = new Person();
         person.setAddress("Addres Test" + number);
@@ -48,7 +48,7 @@ public class MockPerson {
         person.setAddress("Addres Test" + number);
         person.setFirstName("First Name Test" + number);
         person.setGender(((number % 2)==0) ? "Male" : "Female");
-        person.setId(number.longValue());
+        person.setKey(number.longValue());
         person.setLastName("Last Name Test" + number);
         return person;
     }

@@ -1,4 +1,4 @@
-package br.com.erudio.comtroller;
+package br.com.erudio.controller;
 
 import br.com.erudio.data.vo.v1.PersonVO;
 import br.com.erudio.services.PersonService;
